@@ -68,13 +68,13 @@
   clear: none;
   display: block;
   margin: 0 5px;
-  background: #fff;
+  background: #4a88c7;
 }
 
 .slider-nav__item:hover {
-  background: #ccc;
+  background: #c9dcee;
 }
 
 .slider-nav__item--current {
-  background: #ccc;
+  background: #c9dcee;
 }
