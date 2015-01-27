@@ -68,6 +68,16 @@
   background-color:  #e36e67;
   border: 6px solid #e43026;
 }
+
+.apply-btn {
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 21px;
+  border: none;
+  background-color: #3597C3;
+  margin: 15px 0;
+  
+}
 /* BUTTONS END */
 
 
@@ -350,7 +360,8 @@
 
 /* TEAM PAGE START */
 .team-wrapper,
-.partners-wrapper {
+.partners-wrapper,
+.careers-wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -364,7 +375,8 @@
 }
 
 .team-header-banner,
-.partners-header-banner {
+.partners-header-banner,
+.careers-header-banner {
   margin: 35px 0;
 }
 
@@ -401,6 +413,31 @@
 
 /* PARTNER PAGE END */
 
+/* CAREERS PAGE */
+.careers-info h1, h2, h4 {
+  color: #609CEC;
+}
+
+.careers-info li {
+  color: #14171A;
+}
+
+.available-positions h5 > a {
+  color: #FF4D4D;
+}
+
+.careers-wrapper p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.position {
+  margin: 75px 0;
+}
+
+.apply-btn {
+  margin-bottom: 65px;
+}
 
 /* CONSULTING > SITECORE SERVICES PAGE START */
 
