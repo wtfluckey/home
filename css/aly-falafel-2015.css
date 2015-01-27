@@ -349,19 +349,22 @@
 
 
 /* TEAM PAGE START */
-.team-wrapper {
+.team-wrapper,
+.partners-wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
 }
 
-.team-member {
+.team-member,
+.partner {
   height: auto;
   margin-bottom: 65px;
   overflow: hidden;
 }
 
-.team-header-banner {
+.team-header-banner,
+.partners-header-banner {
   margin: 35px 0;
 }
 
@@ -382,7 +385,22 @@
 .team-member > .column-75 {
   float: right;
 }
+
 /* TEAM PAGE END */
+
+
+/* PARTNER PAGE START */
+
+.partner > .column-75 {
+  padding: 40px 0 0 40px;
+}
+
+.partner > .column-25 img {
+  width: 90%;
+}
+
+/* PARTNER PAGE END */
+
 
 /* CONSULTING > SITECORE SERVICES PAGE START */
 
