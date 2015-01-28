@@ -414,12 +414,13 @@
 
 
 /* CAREERS PAGE */
-.careers-info h1, h2, h4 {
-  color: #609CEC;
-}
-
 .careers-info li {
   color: #14171A;
+}
+
+.available-positions {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .available-positions h5 > a {
