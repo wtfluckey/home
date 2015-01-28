@@ -410,8 +410,8 @@
 .partner > .column-25 img {
   width: 90%;
 }
-
 /* PARTNER PAGE END */
+
 
 /* CAREERS PAGE */
 .careers-info h1, h2, h4 {
@@ -508,3 +508,53 @@
 }
 
 /* CONSULTING > SITECORE SERVICES PAGE END */
+
+/* TESTIMONIALS */
+
+.testimonials-wrapper,
+.customer-icons {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin: auto !important;
+}
+
+.testimonial-box {
+  margin: 5px 5px 0 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #4695CC;
+  color: #fff;
+  font-size: 18px;
+}
+
+.testimonial-arrow {
+  margin: 0 0 0 40px;
+  width: 36px;
+  height: 18px;
+  background-image: url("../images/testimonialArrow.png");
+}
+
+.testimonial {
+  margin-bottom: 50px;
+}
+
+.testimonial-attribute h1 {
+  font-family: 'Raleway';
+}
+
+.attribute-title {
+  color: #666;
+  line-height: 24px;
+}
+
+.icon-wrapper {
+  text-align: center;
+  padding: 0;
+}
+
+.icon-wrapper img {
+  margin: 8%;
+  padding: 4%;
+  border: 1px solid #EBEBEB;
+}

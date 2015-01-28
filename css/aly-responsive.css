@@ -150,6 +150,11 @@
   .training-text3 {
     top: 80%;
   }
+  
+  .icon-wrapper img {
+    width: 90%;
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 480px) {
   .about-us-icons > .column-15 {
@@ -175,6 +180,15 @@
     line-height: 20px;
     margin-bottom: 15px;
   }
+  .icon-wrapper {
+    width: 100% !important;
+    border: none;
+  }
+  .icon-wrapper img {
+    width: 55%;
+    margin: 0 0 20px;
+    
+  }
 }
 @media screen and (max-width: 360px) {
   .member-certs > img {
@@ -187,5 +201,8 @@
   }
   .sitecore-banner {
     height: 700px;
+  }
+  .icon-wrapper img {
+    width: 60%;
   }
 }
