@@ -56,6 +56,20 @@
     margin-right: 15px;
 }
 .design-wrapper{padding-left:15px; padding-right:15px;}
+.serviceNavigation {
+    margin: 96px 0px 0px 45px;
+}
+.telerikBullet {
+    margin: 8% 0 0 1%;
+}
+.serviceNavigation li {
+    margin: 9px 0px;
+    letter-spacing: -1px;
+    font-size: 17px;
+}
+.column3 {
+    width: 32%;
+}
 }
 /* ============================================================================= */
 /* ============================================================================= */
@@ -82,6 +96,20 @@
     margin: 0 45px 0 0;
 }
 .design-wrapper{padding-left:15px; padding-right:15px;}
+.serviceNavigation li {
+    margin: 3px 0px;
+    font-size: 15px;
+}
+.services li {
+    width: 11%;
+}
+.column2 {
+    width: 47%;
+    margin: 0 20px 0 0;
+}
+.column3 {
+    width: 32%;
+}
 }
 /* ============================================================================= */
 /* ============================================================================= */
@@ -164,6 +192,23 @@
    width: 100%;
     margin: 0px;
 }
+.services-banner {
+    height: 300px;
+}
+
+}
+/* ============================================================================= */
+/* ============================================================================= */
+/* ============================================================================= */
+/* ============================================================================= */
+
+@media screen and (max-width: 1023px) {
+
+.serviceNavigation{
+  display:none;
+}
+
+    }
 /* ============================================================================= */
 /* ============================================================================= */
 /* ============================================================================= */
@@ -182,6 +227,8 @@
     .column-40.text-align-right  {
     text-align: center;
 }
+.column-10,.column-100,.column-15,.column-20,.column-25,.column-30,.column-35,.column-40,.column-45,.column-5,.column-50,.column-55,.column-60,.column-65,.column-70,.column-75,.column-80,.column-85,.column-90,.column-95,.column1,.column2,.column3,.column4,.column5,.column6,.column75,.one-quarter,.three-quarter
+{width:100%;}
 .column-40.text-align-left  {
    text-align: center;
 }
@@ -246,7 +293,10 @@
     height: 365px;
     width: 100%;
 }
-
+.ms-training{text-align:center;}
+.services-banner {
+    height: 200px;
+}
 }
 /* ============================================================================= */
 /* ============================================================================= */
@@ -274,6 +324,9 @@
  .pluralsight-training-wrapper {
     height: 363px;
     width: 285px;
+}
+.services-banner {
+    height: 90px;
 }
 }
 
