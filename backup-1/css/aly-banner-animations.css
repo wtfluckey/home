@@ -1,0 +1,484 @@
+@-webkit-keyframes iconHoverIn {
+  0% {
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: none;
+       -moz-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+       -moz-transform: rotate3d(0, 0, 1, -45deg);
+            transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 1;
+  }
+}
+
+@keyframes iconHoverIn {
+  0% {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+       -moz-transform-origin: center;    
+    -webkit-transform: none;
+            transform: none;
+       -moz-transform: none;
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+       -moz-transform: rotate3d(0, 0, 1, -45deg);
+            transform: rotate3d(0, 0, 1, -45deg);
+  }
+}
+
+.iconHoverIn {
+  -webkit-animation-name: iconHoverIn;
+          animation-name: iconHoverIn;
+}
+
+@-webkit-keyframes iconHoverOut {
+  0% {
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+       -moz-transform: rotate3d(0, 0, 1, -45deg);
+            transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+            transform-origin: center;
+       -moz-transform-origin: center;
+    -webkit-transform: none;
+       -moz-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes iconHoverOut {
+  0% {
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+       -moz-transform: rotate3d(0, 0, 1, -45deg);
+            transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+       -moz-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: none;
+       -moz-transform: none;
+            transform: none;
+  }
+}
+
+.iconHoverOut {
+  -webkit-animation-name: iconHoverOut;
+          animation-name: iconHoverOut;
+}
+
+.hideme {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.showme {
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+}
+
+.c-consulting {
+  position: relative;
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../Fonts/bebas.eot');
+    src: url('../Fonts/bebas.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/bebas.woff2') format('woff2'),
+         url('../Fonts/bebas.woff') format('woff'),
+         url('../Fonts/bebas.ttf') format('truetype'),
+         url('../Fonts/bebas.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.consulting-text1 {
+    font-family: 'bebasregular', Arial, sans-serif;
+    color: #137FC1;
+  position: absolute;
+  top: 20%;
+  left: 1.5%; 
+}
+.consulting-text2 {
+    font-family: 'bebasregular', Arial, sans-serif;
+    color: #137FC1;
+  position: absolute;
+  top: 85%;
+  left: 1.5%;
+}
+
+.black-text {
+  color: #000;
+}
+
+.c-background-image {
+  width: 100%;
+  height: auto; !important
+  position: relative;
+}
+
+.c-branches {
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  width: 25%;
+}
+
+.c-mobile-bar {
+  position: absolute;
+  left: 55.3%;
+  top: 20.5%;
+  width: 10%;
+}
+
+.c-mobile-icon {
+  position: absolute;
+  left: 59.3%;
+  top: 22.2%;
+  width: 5.4%;
+}
+
+.c-mobile-text {
+  position: absolute;
+  width: 7%;
+  top: 33%;
+  left: 52%;
+}
+
+.c-mobile-android {
+  position: absolute;
+  width: 3.5%;
+  top: 12%;
+  left: 57.5%;
+}
+
+.c-mobile-android-text {
+  position: absolute;
+  width: 3%;
+  top: 13%;
+  left: 53%;
+}
+
+.c-mobile-windows-text {
+  position: absolute;
+  width: 5%;
+  top: 6%;
+  left: 57%;
+}
+
+.c-mobile-windows {
+  position: absolute;
+  width: 3.5%;
+  top: 10%;
+  left: 61.5%;
+}
+
+.c-mobile-ios-text {
+  position: absolute;
+  width: 1.3%;
+  top: 24%;
+  left: 52%;
+}
+.c-mobile-ios {
+  position: absolute;
+  width: 3.5%;
+  top: 22%;
+  left: 55%;
+}
+.c-web-kendo-text {
+  position: absolute;
+  width: 5%;
+  top: 50%;
+  left: 49.3%;
+}
+.c-web-kendo {
+  position: absolute;
+  width: 3.5%;
+  top: 49%;
+  left: 53.5%;
+}
+.c-web-text {
+  position: absolute;
+  width: 8%;
+  top: 64%;
+  left: 52%;
+}
+.c-web-icon {
+  position: absolute;
+  width: 5.3%;
+  top: 53.8%;
+  left: 57.5%;
+}
+.c-web-bar {
+  position: absolute;
+  width: 10%;
+  top: 52%;
+  left: 53.5%;
+}
+.c-xamarin-text {
+  position: absolute;
+  width: 8%;
+  top: 88%;
+  left: 57%;
+}
+.c-xamarin-bar {
+  position: absolute;
+  width: 10%;
+  top: 76%;
+  left: 60%;
+}
+.c-xamarin-icon {
+  position: absolute;
+  width: 5.5%;
+  top: 77.6%;
+  left: 63.9%;
+}
+.c-smartbear-text {
+  position: absolute;
+  width: 7%;
+  top: 2%;
+  left: 76%;
+}
+.c-smartbear-bar {
+  position: absolute;
+  width: 10%;
+  top: 5%;
+  left: 69%;
+}
+.c-smartbear-icon {
+  position: absolute;
+  width: 5.6%;
+  top: 6.4%;
+  left: 69.5%;
+}
+.c-sitefinity-text {
+  position: absolute;
+  width: 7%;
+  top: 66.3%;
+  left: 89%;
+}
+.c-sitefinity-bar {
+  position: absolute;
+  width: 10%;
+  top: 53%;
+  left: 81.5%;
+}
+.c-sitefinity-icon {
+  position: absolute;
+  width: 5.3%;
+  top: 55%;
+  left: 82.2%;
+}
+.c-telerik-text {
+  position: absolute;
+  width: 7%;
+  top: 89%;
+  left: 82%;
+}
+.c-telerik-bar {
+  position: absolute;
+  width: 10%;
+  top: 76%;
+  left: 74.9%;
+}
+.c-telerik-icon {
+  position: absolute;
+  width: 5.5%;
+  top: 77.8%;
+  left: 75.5%;
+}
+.c-windows-text {
+  position: absolute;
+  width: 7%;
+  top: 33%;
+  left: 87%;
+}
+.c-windows-bar {
+  position: absolute;
+  width: 10%;
+  top: 16%;
+  left: 79.5%;
+}
+.c-windows-icon {
+  position: absolute;
+  width: 5.5%;
+  top: 22.4%;
+  left: 80.1%;
+}
+.c-falafel {
+  position: absolute;
+  width: 15%;
+  top: 30%;
+  left: 65%;
+}
+
+/*TRAINING*/
+
+.training-text1 {
+  font-family: 'bebasregular', Arial, sans-serif;
+  color: #ED1568;
+  position: absolute;
+  top: 20%;
+  left: 1.5%; 
+}
+.training-text2 {
+  font-family: 'bebasregular', Arial, sans-serif;
+  color: #ED1568;
+  position: absolute;
+  top: 80%;
+  left: 1.5%;
+}
+.training-text3 {
+  font-family: 'bebasregular', Arial, sans-serif;
+  color: #ED1568;
+  position: absolute;
+  top: 90%;
+  left: 1.5%;
+}
+
+.drk-grey-text {
+  color: #484848;
+}
+
+.lt-grey-text {
+  color: #7C7D7D;
+}
+
+.t-training {
+  position: relative;
+}
+
+.t-branches {
+  position: absolute;
+  width: 40%;
+  top: 28%;
+  left: 49%;
+}
+
+.t-background-image {
+  width: 100%;
+  height: auto; !important
+  position: absolute;
+}
+
+.t-xamarin-text {
+  position: absolute;
+  width: 8%;
+  top: 79.5%;
+  left: 66%;
+}
+
+.t-xamarin-bar {
+  position: absolute;
+  width: 25%;
+  top: 49%;
+  left: 65%;
+}
+
+.t-xamarin-icon {
+  position: absolute;
+  width: 11%;
+  top: 52.5%;
+  left: 73%;
+}
+
+.t-smartbear-text {
+  position: absolute;
+  width: 8%;
+  top: 62%;
+  left: 36%;
+}
+.t-smartbear-bar {
+  position: absolute;
+  width: 17%;
+  top: 33%;
+  left: 38%;
+}
+.t-smartbear-icon {
+  position: absolute;
+  width: 7.7%;
+  top: 37.5%;
+  left: 43.3%;
+}
+.t-sitefinity-text {
+  position: absolute;
+  width: 8%;
+  top: 31.5%;
+  left: 81%;
+}
+.t-sitefinity-bar {
+  position: absolute;
+  width: 19%;
+  top: 35%;
+  left: 80.4%;
+}
+.t-sitefinity-icon {
+  position: absolute;
+  width: 8.7%;
+  top: 45%;
+  left: 86.7%;
+}
+.t-kendo-text {
+  position: absolute;
+  width: 8%;
+  top: 68%;
+  left: 55%;
+}
+.t-kendo-bar {
+  position: absolute;
+  width: 16%;
+  top: 28%;
+  left: 54%;
+}
+.t-kendo-icon {
+  position: absolute;
+  width: 10%;
+  top: 33%;
+  left: 55.2%;
+}
+.t-test-studio-text {
+  position: absolute;
+  width: 8%;
+  top: 7.5%;
+  left: 79%;
+}
+.t-test-studio-bar {
+  position: absolute;
+  width: 18%;
+  top: 12%;
+  left: 69%;
+}
+.t-test-studio-icon {
+  position: absolute;
+  width: 7%;
+  top: 20%;
+  left: 70%;
+}
