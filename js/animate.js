@@ -24,7 +24,7 @@ $(function() {
   var animateOnScroll = function() {
     $('.scrollAnimateFromTop').each( function(i) {
       var top_of_object = $(this).position().top;
-      var bottom_of_window = $(window).scrollTop() + $(window).height() - 500;
+      var bottom_of_window = $(window).scrollTop() + $(window).height() - 300;
       var animation = $(this).data('animation');
 
       if (bottom_of_window > top_of_object) {
