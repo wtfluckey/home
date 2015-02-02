@@ -110,12 +110,12 @@
 
 @font-face {
     font-family: 'bebasregular';
-    src: url('../Fonts/bebas.eot');
-    src: url('../Fonts/bebas.eot?#iefix') format('embedded-opentype'),
-         url('../Fonts/bebas.woff2') format('woff2'),
-         url('../Fonts/bebas.woff') format('woff'),
-         url('../Fonts/bebas.ttf') format('truetype'),
-         url('../Fonts/bebas.svg#bebasregular') format('svg');
+    src: url('../fonts/bebas.eot');
+    src: url('../fonts/bebas.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas.woff2') format('woff2'),
+         url('../fonts/bebas.woff') format('woff'),
+         url('../fonts/bebas.ttf') format('truetype'),
+         url('../fonts/bebas.svg#bebasregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
