@@ -31,6 +31,10 @@
   color: #F93C58;
 }
 
+.white-text {
+  color: #fff;
+}
+
 .sitecore-red-text {
   color: #E43026;
 }
@@ -52,7 +56,12 @@
   background-color: #5BB75B;
   background-image: linear-gradient(to bottom, #62C462, #51A351);
   background-repeat: repeat-x;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.btn-success:hover {
+  border: none;
+  background: #51A351;
 }
 
 .sitecore-btn {
@@ -117,6 +126,14 @@
   height: 22px;
   width: 100%;
 }
+
+.grey-background {
+  background-color: #efefef;
+}
+
+.margin-b-20 {
+  margin-bottom: 20px;
+}
 /* SHARED STYLES END */
 
 /* CONSULTING PAGE START*/
@@ -129,6 +146,10 @@
 .consulting-quote > h1 {
   font-size: 58px;
   margin-bottom: 15px;
+}
+
+.quote-wrapper {
+  margin-bottom: 50px;
 }
 
 .quote {
@@ -222,10 +243,6 @@
   background-color: #1483C6;
   border: 6px solid #BAE0F7;
   padding: 20px 50px;
-}
-
-.consulting-alm-wrapper {
-  background-color: #efefef;
 }
 
 .consulting-alm > .column-60 {
@@ -362,7 +379,8 @@
 .team-wrapper,
 .partners-wrapper,
 .careers-wrapper,
-.tc-training-wrapper {
+.tc-training-wrapper,
+.sf-training-wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -567,4 +585,59 @@
 
 .tc-tile-background:hover {
   background-color: #3479BA;
+}
+
+.sf-onsite-training li {
+  margin: 10px 0;
+}
+
+.sf-onsite-training img {
+  margin: 25px 0;
+}
+
+.sf-onsite-training > .column-60 {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.sf-onsite-training > .column-40 {
+  text-align: center;
+}
+
+.sf-tile-background {
+  min-height: 150px;
+  background-color: #5173B9;
+  margin: 0 3px;
+  padding: 5px 10px;
+}
+
+.sf-tile-background:hover {
+  background-color: #778EC2;
+}
+
+.sf-tile-background > h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sf-tiles h4 {
+  margin: 5px 2px 30px;
+  line-height: 24px;
+}
+
+.sf-tile-background > img {
+  float: right;
+}
+
+.mentoring-icon {
+  margin-top: 40px;
+  margin-right: 15px;
+  float: right;
+}
+
+.sf-training-customers {
+  margin-top: 50px;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  padding: 30px;
 }
