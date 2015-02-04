@@ -361,7 +361,8 @@
 /* TEAM PAGE START */
 .team-wrapper,
 .partners-wrapper,
-.careers-wrapper {
+.careers-wrapper,
+.tc-training-wrapper {
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -558,4 +559,12 @@
   margin: 8%;
   padding: 4%;
   border: 1px solid #EBEBEB;
+}
+
+.tc-tile-background {
+  background-color: #175CA6;
+}
+
+.tc-tile-background:hover {
+  background-color: #3479BA;
 }
