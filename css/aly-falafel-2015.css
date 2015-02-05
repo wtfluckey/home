@@ -579,13 +579,72 @@
   border: 1px solid #EBEBEB;
 }
 
-.tc-tile-background {
+/* TRAINING TILES and SITEFINITY/TESTCOMPLETE */
+/* SHARED STYLES */
+
+.tile-background {
+  min-height: 150px;
+  margin: 0 3px;
+  padding: 5px 10px;
+}
+
+.tile-background > h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.tile-background > img {
+  margin-top: 15px;
+  float: right;
+}
+
+.tiles h4 {
+  margin: 5px 2px 30px;
+  line-height: 24px;
+}
+
+.training-customers {
+  margin-top: 50px;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* TESTCOMPLETE TRAINING PAGE */
+
+.tc-onsite-training {
+  width: 65%;
+  margin: auto;
+}
+
+.tc-onsite-training li {
+  color: #333;
+  margin: 10px 0;
+}
+
+.tc.tile-background {
   background-color: #175CA6;
 }
 
-.tc-tile-background:hover {
+.tc.tile-background:hover {
   background-color: #3479BA;
 }
+
+.p-mentoring {
+  line-height: 18px;
+}
+
+.tc-training-guides {
+  text-align: right;
+}
+
+.tc-faq-icon {
+  float: none !important;
+  width: 175px;
+  margin: 0 55px;
+}
+
+/* SITEFINITY TRAINING PAGE */
 
 .sf-onsite-training li {
   margin: 10px 0;
@@ -604,40 +663,16 @@
   text-align: center;
 }
 
-.sf-tile-background {
-  min-height: 150px;
+.sf.tile-background {
   background-color: #5173B9;
-  margin: 0 3px;
-  padding: 5px 10px;
 }
 
-.sf-tile-background:hover {
+.sf.tile-background:hover {
   background-color: #778EC2;
-}
-
-.sf-tile-background > h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.sf-tiles h4 {
-  margin: 5px 2px 30px;
-  line-height: 24px;
-}
-
-.sf-tile-background > img {
-  float: right;
 }
 
 .mentoring-icon {
   margin-top: 40px;
   margin-right: 15px;
   float: right;
-}
-
-.sf-training-customers {
-  margin-top: 50px;
-  border: 1px solid #efefef;
-  border-radius: 5px;
-  padding: 30px;
 }
