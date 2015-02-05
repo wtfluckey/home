@@ -193,24 +193,30 @@
     font-size: 20px;
     line-height: 20px;
   }
-
-}
-@media screen and (max-width: 670px) {
-  .about-us-icons > .column-15 {
-    width: 43%;
-    margin: 0 15px 30px;
+  .team-member > .column-25 {
+    width: 100%;
+    text-align: center;
   }
-  .team-member, .partner > .column-25 {
-    width: 50%;
+  .team-member > .column-75 {
+    width: 100%;
+  }
+  .partner > .column-25 {
+    width: 40%;
     float: none;
     margin: auto;
   }
-  .team-member, .partner > .column-75 {
+  .partner > .column-75 {
     width: 90%;
     float: none;
     margin: auto;
     padding: 0;
   }
+  .about-us-icons > .column-15 {
+    width: 43%;
+    margin: 0 15px 30px;
+  }
+}
+@media screen and (max-width: 670px) {
   .member-certs {
     text-align: center;
     margin: 20px 0 0;

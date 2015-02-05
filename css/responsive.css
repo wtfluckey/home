@@ -408,17 +408,6 @@ padding: 5% 0 0 2%;
     width: 43%;
     margin: 0 15px 30px;
   }
-  .team-member, .partner > .column-25 {
-    width: 50%;
-    float: none;
-    margin: auto;
-  }
-  .team-member, .partner > .column-75 {
-    width: 90%;
-    float: none;
-    margin: auto;
-    padding: 0;
-  }
   .member-certs {
     text-align: center;
     margin: 20px 0 0;
