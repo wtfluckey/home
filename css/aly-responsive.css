@@ -11,6 +11,15 @@
   .sitecore-banner > .column-60 {
     padding: 5% 0 0 2%;
   }
+  .tc-onsite-training {
+    width: 80%;
+  }
+  .tc-training-guides {
+    padding-right: 15px;
+  }
+  img.no-margin {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 1024px) {
   .team-member > .column-75 {
@@ -54,6 +63,39 @@
   .partner > .column-75 {
     padding-top: 0;
   }
+  .tiles h4 {
+    font-size: 15px;
+  }
+  .mentoring-icon {
+    width: 60%;
+    margin-top: 60px;
+  }
+  .column-50.mentoring {
+    width: 50%;
+    margin-right: 0;
+  }
+  h2.mentoring {
+    font-size: 20px;
+  }
+  h3.mentoring {
+    font-size: 18px;
+  }
+  p.tc-guide {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 5px;
+  }
+  h2.tc-guide {
+    margin-top: 0;
+  }
+  .sf-onsite-training > .column-60 {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .sf-onsite-training > .column-40 {
+    width: 100%;
+  }
+  
 }
 @media screen and (max-width: 800px) {
   .about-us-h1 {
@@ -103,6 +145,55 @@
     max-width: 300px;
     width: 100%;
   }
+  h2.mentoring {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  h3.mentoring {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .tile-background > h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .column-50.mentoring {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .tile-background > .column-60 {
+    width: 60%;
+    float: left;
+  }
+  .tile-background > .column-40 {
+    width: 40%;
+  }
+  h2.mentoring {
+    line-height: 38px;
+    font-size: 20px;
+  }
+  h3.mentoring {
+    line-height: 34px;
+  }
+  .mentoring-icon {
+    width: 50%;
+    margin: 50px 5px 30px;
+  }
+  .tc-training-guides {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .tiles {
+    width: 80%;
+    margin: auto;
+  }
+  .tile-background > h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
 }
 @media screen and (max-width: 670px) {
   .about-us-icons > .column-15 {
@@ -155,6 +246,14 @@
     width: 90%;
     margin-top: 0;
   }
+  h2.mentoring {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  h3.mentoring {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 @media screen and (max-width: 480px) {
   .about-us-icons > .column-15 {
@@ -187,7 +286,12 @@
   .icon-wrapper img {
     width: 55%;
     margin: 0 0 20px;
-    
+  }
+  .btn-xl {
+    font-size: 20px;
+  }
+  .mobile-hide {
+    display:  none;
   }
 }
 @media screen and (max-width: 360px) {
