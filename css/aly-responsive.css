@@ -1,17 +1,298 @@
 @media screen and (max-width: 1200px) {
-
+  .team-members-wrapper {
+    width: 95%;
+    margin: auto;
+  }
+  .member-certs > img {
+    margin: 0 10px;
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .sitecore-banner > .column-60 {
+    padding: 5% 0 0 2%;
+  }
+  .tc-onsite-training {
+    width: 80%;
+  }
+  .tc-training-guides {
+    padding-right: 15px;
+  }
+  img.no-margin {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 1024px) {
-
+  .team-member > .column-75 {
+    width: 70%;
+  }
+  .breadcrumb-wrapper {
+    width: 90%;
+  }
+  .about-us-h1 {
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .about-us-icons > .column-15 {
+    margin: 0 5px;
+  }
+  .consulting-ui-design > .column-40 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .consulting-ui-design > .column-60 {
+    width: 100%;
+  }
+  .consulting-alm > .column-40 {
+    width: 100%;
+    text-align: center;
+  }
+  .consulting-alm > .column-40 img {
+    width: 50%;
+    float: none;
+  }
+  .consulting-alm > .column-60 {
+    width: 80%;
+    margin: 50px 9% 0;
+  }
+  .sitecore-banner > .column-40 p {
+    font-size: 18px;
+  }
+  .sitecore h2 {
+    font-size: 60px;
+  }
+  .partner > .column-75 {
+    padding-top: 0;
+  }
+  .tiles h4 {
+    font-size: 15px;
+  }
+  .mentoring-icon {
+    width: 60%;
+    margin-top: 60px;
+  }
+  .column-50.mentoring {
+    width: 50%;
+    margin-right: 0;
+  }
+  h2.mentoring {
+    font-size: 20px;
+  }
+  h3.mentoring {
+    font-size: 18px;
+  }
+  p.tc-guide {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 5px;
+  }
+  h2.tc-guide {
+    margin-top: 0;
+  }
+  .sf-onsite-training > .column-60 {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .sf-onsite-training > .column-40 {
+    width: 100%;
+  }
+  
 }
 @media screen and (max-width: 800px) {
+  .about-us-h1 {
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .team-member h1 {
+    margin: 10px 0;
+  }
+  .consulting-quote.container {
+    width: 90%;
+  }
+  .consulting-quote h1 {
+    font-size: 45px;
+  }
+  .consulting-about-us > .column-60 {
+    width: 100%;
+    margin: auto;
+    padding-left: 0;
+  }
+  .consulting-about-us > .column-40 {
+    width: 100%;
+  }
+  .consulting-partners-icons > img {
+    width: 100%;
+    display: block;
+  }
+  .consulting-partners-icons {
+    width: 30%;
+    margin: auto;
+  }
+  .sitecore-banner {
+    height: 920px;
+  }
+  .sitecore.column-40,
+  .sitecore.column-50,
+  .sitecore.column-60 {
+    width: 100%;
+  }
+  .sitecore-mentor > .column-40 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .sitecore-mentor > .column-40 img {
+    float: none;
+    padding: 0;
+    max-width: 300px;
+    width: 100%;
+  }
+  h2.mentoring {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  h3.mentoring {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .tile-background > h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .column-50.mentoring {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .tile-background > .column-60 {
+    width: 60%;
+    float: left;
+  }
+  .tile-background > .column-40 {
+    width: 40%;
+  }
+  h2.mentoring {
+    line-height: 38px;
+    font-size: 20px;
+  }
+  h3.mentoring {
+    line-height: 34px;
+  }
+  .mentoring-icon {
+    width: 50%;
+    margin: 50px 5px 30px;
+  }
+  .tc-training-guides {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .tiles {
+    width: 80%;
+    margin: auto;
+  }
+  .tile-background > h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
 
 }
 @media screen and (max-width: 670px) {
-
+  .about-us-icons > .column-15 {
+    width: 43%;
+    margin: 0 15px 30px;
+  }
+  .team-member, .partner > .column-25 {
+    width: 50%;
+    float: none;
+    margin: auto;
+  }
+  .team-member, .partner > .column-75 {
+    width: 90%;
+    float: none;
+    margin: auto;
+    padding: 0;
+  }
+  .member-certs {
+    text-align: center;
+    margin: 20px 0 0;
+  }
+  .member-certs > img {
+    max-width: 70px;
+    margin: 0 2px;
+  }
+  .consulting-quote h1 {
+    font-size: 35px;
+  }
+  .consulting-ui-design h1 {
+    font-size: 78px;
+  }
+  .consulting-ui-design p {
+    font-size: 18px;
+  }
+  .design-button {
+    font-size: 18px;
+    padding: 15px;
+  }
+  .sitecore-banner {
+    height: 800px;
+  }
+  .training-text2 {
+    top: 70%;
+  }
+  .training-text3 {
+    top: 80%;
+  }
+  
+  .icon-wrapper img {
+    width: 90%;
+    margin-top: 0;
+  }
+  h2.mentoring {
+    line-height: 28px;
+    font-size: 18px;
+  }
+  h3.mentoring {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 @media screen and (max-width: 480px) {
-
+  .about-us-icons > .column-15 {
+    width: 60%;
+    margin: 30px auto;
+    float: none;
+  }
+  .consulting-text2 {
+    top: 75%;
+  }
+  .sitecore-banner {
+    height: 750px;
+  }
+  .sitecore h2 {
+    font-size: 45px;
+    line-height: 48px;
+  }
+  .sitecore-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .available-positions h5 {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .icon-wrapper {
+    width: 100% !important;
+    border: none;
+  }
+  .icon-wrapper img {
+    width: 55%;
+    margin: 0 0 20px;
+  }
+  .btn-xl {
+    font-size: 20px;
+  }
+  .mobile-hide {
+    display:  none;
+  }
 }
 @media screen and (max-width: 360px) {
 
