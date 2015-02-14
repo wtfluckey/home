@@ -1,0 +1,460 @@
+@charset "UTF-8";
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Raleway Thin'), local('Raleway-Thin'), url(http://fonts.gstatic.com/s/raleway/v9/RJMlAoFXXQEzZoMSUteGWJBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/RJMlAoFXXQEzZoMSUteGWLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://fonts.gstatic.com/s/raleway/v9/8KhZd3VQBtXTAznvKjw-kwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12b73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+/* END FONTS */
+
+/*-------------------*/
+
+/* TYPOGRPAHY */
+/*-------------------*/
+/* TYPOGRPAHY COLORS */
+.pink-text{
+    color:#FF4C4C;
+}
+/*NEED TO RESOLVE*/
+.pink-text {
+  color: #F93C58;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.sitecore-red-text {
+  color: #E43026;
+}
+
+.blue-text {
+	color:#609CEC;
+}
+
+/* TEXT ALIGNMENT */
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+/* END TYPOGRAPHY COLORS */
+
+/* GLOBAL FONT STYLES */
+p {
+	color:#14171a; 
+	font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #14171a;
+    font-weight:200;
+}
+h4 {
+    font-size: 18px;
+    line-height: 33px;
+    margin: 28px 0 10px 0;
+}
+/* END GLOBAL FONT STYLES */
+
+/* END TYPOGRPAHY */
+/*-------------------*/
+
+
+/* SHARED STYLES */
+
+/* HEADER */
+.header-2 .navigation .mgmenu > li > a, .header-2 .navigation .mgmenu > li > span {
+    font-size: 22px;
+    font-weight: 200;
+    color: #4695CC;
+}
+.header-2 .logo {
+    margin: 0px;
+}
+.header-2 {
+    padding: 5px 0;
+}
+/* END HEADER */
+/*-------------------*/
+
+/* BREADCRUMB */
+.breadcrumb ul{}
+.breadcrumb li{list-style-type: none; float: left; margin: 0 10px 0 0;}
+/* END BREADCRUMB */
+/*-------------------*/
+
+/* FOOTER */
+.foot, footer {
+    background-color:#14171a;
+}
+.foot ul {
+	list-style-type: none; 
+	font-weight:200; 
+	font-size:14px; 
+	padding:0px;
+}
+.foot .head {
+    font-size: 24px;
+    margin: 18px 0px 22px;
+    color: #FFF;
+}
+.foot ul a {
+	color:#fff;
+}
+.foot ul a:hover {
+	color:#cccccc;
+}
+.foot {
+    margin-top: 30px;
+}
+.col-md-20{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* END FOOTER */
+/*-------------------*/
+
+/* BACKGROUNDS */
+.grey-background {
+  background-color: #efefef;
+}
+.background-light-grey {
+	background:#f2f2f2; 
+	background-image: url("../images/raster.png")
+}
+.background-blue-grad {
+    background-image: url("../images/blue-gradient-back.png");
+    background-repeat: repeat;
+}
+/* END BACKGROUNDS */
+/*-------------------*/
+
+/* SHADOWS */
+.shadow-top {
+    background-image: url("../images/shadow-top.png");
+    background-repeat: repeat-x;
+    height: 22px;
+    width: 100%;
+}
+.shadow-bottom {
+    background-image: url("../images/shadow-bottom.png");
+    background-repeat: repeat-x;
+    height: 22px;
+    width: 100%;
+}
+/* END SHADOWS */
+/*-------------------*/
+
+/* SHARED PAGE STYLES */
+.outer .container {
+    max-width: 1400px;
+}
+
+/* SERVICES ICONS BLOCK */
+.services h2{font-size:100px;}
+.services ul{
+	list-style-type: none;
+	margin: 70px 0 0 0;
+}
+.services li {
+    float: left;
+    width: 12%;
+    margin: 0px 23px 0px 0px;
+    text-align: center;
+}
+/* END SERVICES ICONS BLOCK */
+/*-------------------*/
+
+/* END SHARED PAGE STYLES */
+/*-------------------*/
+
+
+
+
+/* PAGE STYLES */
+
+/* HOME PAGE SPECIFIC STYLES */
+
+/* SLIDER BANNERS SECTION */
+
+/* SHARED BANNER STYLES */
+.banner-wrapper {
+    margin: 0px 0px 9px;
+    position: relative;
+}
+.banner-info {
+    background: url("../images/banner-back.png") repeat scroll 0px 0px transparent;
+    left: 10%;
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+    width: 62%;
+}
+.banner-info {
+    top: 4%;
+    width: 79%;
+}
+/* SITECORE/CMS BANNER */
+.cms-banner-wrapper h1 {
+    font-size: 54px;
+    letter-spacing: -2px;
+    line-height: 51px;
+    margin: 0px;
+    text-align: left;
+}
+.cms-banner-wrapper p {
+    margin: 5% 0;
+}
+.cms-banner-wrapper .column-60 {
+    width: 65%;
+}
+.cms-banner-wrapper p {
+    margin: 5% 0px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.sitecore-banner-wrapper .column-40 {
+    padding: 3% 0px 0px 5%;
+    width: 35%;
+}
+
+/* BANNER 2 - CONSULTING/MOBILE/TRAINING LINKS */
+.consulting-link, .training-link, .custom-link{
+	position:absolute;
+	background-image:url(../images/invisible-back.png);
+	background-repeat:repeat;
+	width:300px;
+	height:300px;
+	z-index:1000;
+}
+.custom-link {
+    left: 44%;
+    top: 25%;
+}
+.training-link {
+    right: 3%;
+    top: 30%;
+}
+.consulting-link{
+    left: 2%;
+    top: 35%;
+}
+
+/* XAMARIN BANNER */
+.xamarin-home-banner .banner-info h1 {
+    font-size: 75px;
+    line-height: 73px;
+    color:#ffffff;
+}
+.xamarin-home-banner p {
+    color: #333;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 41px;
+    margin: 39px 0 64px 0;
+}
+.xamarin-home-banner .btn-primary {
+    background-color: #7EA6CD;
+    background-image: none;
+    border-color: #FFF;
+}
+.xamarin-home-banner .banner-info {
+    background: none repeat scroll 0px 0px transparent;
+}
+.xamarin-home-banner .btn-primary:hover {
+    background: #85b8d3;
+}
+
+/* SLIDER */
+.slider-nav__item {
+    background: none repeat scroll 0% 0% #609CEC;
+}
+ .slider-nav__item--current {
+    background: none repeat scroll 0% 0% #C9DCEE;
+}
+
+/* QUOTES */
+.quote-two {
+    background-image: url("../images/raster.png"), url("../images/quote-back.jpg");
+}
+.quote-two .quote-two-content h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+/* NEWS AND PRESS SECTION */
+.block-heading-two h3 span {
+    padding-bottom: 8px;
+    font-size: 34px;
+    font-weight: 200;
+}
+
+
+/* BUTTONS */
+
+.btn-success {
+  color: #FFF;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+  background-color: #5BB75B;
+  background-image: linear-gradient(to bottom, #62C462, #51A351);
+  background-repeat: repeat-x;
+  border: none;
+}
+
+.btn-success:hover {
+  border: none;
+  background: #51A351;
+}
+
+.sitecore-btn {
+  background-color: #E43026;
+  border: 6px solid #E36E67;
+  padding: 20px 50px;
+  font-size: 23px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.sitecore-btn:hover {
+  background-color:  #e36e67;
+  border: 6px solid #e43026;
+}
+
+.apply-btn {
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 21px;
+  border: none;
+  background-color: #3597C3;
+  margin: 15px 0;  
+}
+
+.largeButton {
+    padding: 26px;
+    min-width: 207px;
+    font-size: 28px;
+    border-radius: 5px;
+}
+
+.redButton,
+.greenButton,
+.orangeButton, 
+.purpleButton, 
+.blueButton, 
+.greyButton, 
+.telerikGreenButton, 
+.smartbearBlueButton, 
+.darkGreyButton {
+    margin: 10px 5px 0px 0px;
+    padding: 20px 0;
+    width: 100px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blueButton {
+    background-color: #4695CC;
+}
+.blueButton:hover {
+    background-color: #6BAAD6;
+}
+.btn-md {
+	padding:8px 25px; 
+	font-size: 16px;
+}
+.btn-margin {
+	margin: 20px 0;
+}
+.design-button a {
+    background-color: #202C3C;
+    color: #fff;
+    padding: 12px 50px;
+    font-size: 27px;
+    border-radius: 4px;
+}
+.design-button a:hover {
+	text-decoration:none;
+}
+.design-button {
+    padding: 36px 0;
+}
+.green-button a {
+    background-color: #8ECC3D;
+}
+.green-button a:hover {
+    background-color: #ABD970;
+}
+.green-button-border a {
+	background-color: #449d44;
+	border: 6px solid #398439;
+	padding: 20px 50px;
+}
+.mgmenu_container > .mgmenu > li.mgmenu_button, 
+.mgmenu_fixed > .mgmenu > li.mgmenu_button, 
+.mgmenu_footer > .mgmenu > li.mgmenu_button {
+    background-image: url("../images/toggle.png");
+}
+.btn{
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+.btn-xl, .btn-group-xl > .btn {
+    font-size: 29px;
+    padding: 10px 57px;
+    font-weight: 200;
+}
+
+.btn-xl {
+  border-radius: 5px !important;
+  font-size: 29px;
+  padding: 28px 65px !important;
+  line-height: 35px;
+}
+
+/* BUTTONS END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
