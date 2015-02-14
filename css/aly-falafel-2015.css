@@ -113,24 +113,6 @@
   margin: 5px 0;
 }
 
-.shadow-top {
-  background-image: url("../images/shadow-top.png");
-  background-repeat: repeat-x;
-  height: 22px;
-  width: 100%;
-}
-
-.shadow-bottom {
-  background-image: url("../images/shadow-bottom.png");
-  background-repeat: repeat-x;
-  height: 22px;
-  width: 100%;
-}
-
-.grey-background {
-  background-color: #efefef;
-}
-
 .margin-b-20 {
   margin-bottom: 20px;
 }
