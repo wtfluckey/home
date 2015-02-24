@@ -71,7 +71,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #14171a;
+    color: #4695CC;
     font-weight:200;
 }
 h4 {
@@ -147,8 +147,13 @@ h4 {
   background-color: #efefef;
 }
 .background-light-grey {
-	background:#f2f2f2; 
-	background-image: url("../images/raster.png")
+    background: none repeat scroll 0% 0% #F2F2F2;
+    border-top: 4px solid #efefef;
+    border-bottom: 4px solid #efefef;
+}
+.background-border-light-grey {
+    border-top: 5px solid #efefef;
+    border-bottom: 5px solid #efefef;
 }
 .background-blue-grad {
     background-image: url("../images/blue-gradient-back.png");
@@ -1122,24 +1127,6 @@ td, th {
   width: 90%;
   margin: 30px auto;
 }
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0px;
-  overflow: hidden;
-  width: 90%;
-  margin: auto;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-}
 /* COMPANY PAGE END */
 /*-------------------*/
 
@@ -1454,6 +1441,740 @@ td, th {
   float: right;
 }
 /* SITEFINITY TRAINING PAGE END */
+/*-------------------*/
+
+
+/* SITEFINITY SERVICES PAGE START */
+.sitefinityServicesBanner {
+    height: 409px;
+    background-image: url("../images/sitefinity-consulting-banner.jpg");
+    background-repeat: no-repeat;
+}
+.sitefinityBullet {
+    list-style-image: url("../images/sitefinityBullet.png");
+}
+.sitefinityServices h1, .sitefinityServices h2, .sitefinityServices h3, .sitefinityServices h4, .sitefinityServices h5 {
+    color: #5173B9;
+}
+.sitefinityServices h1 {
+    margin: 30px 0px;
+    letter-spacing: -3px;
+    font-size: 43px;
+}
+.sitefinityServices ul {
+    margin: 10px 0 15px 30px;
+    padding: 0px 0px 0px 6px;
+    list-style-image: url("../images/sf_bullet.jpg");
+    font-size: 14px;
+}
+.sitefinityServices h2 {
+    margin: 10px 0px 5px;
+    text-align: left;
+    letter-spacing: -1px;
+    font-size: 24px;
+}
+.sitefinityServices p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.sitefinityTestimonialSpacer {
+    height: 20px;
+}
+
+.consultingTitle {
+    color: #999;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 0px -30px;
+}
+
+.sitefinityQuoteBox {
+    margin: 5px 5px 0px 0px;
+    padding: 20px;
+    width: 100%;
+    background-color: #5173B9;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 25px;
+}
+.sitefinityArrow {
+    margin: 0px 0px 0px 40px;
+    width: 36px;
+    height: 18px;
+    background-image: url("../images/sitefinityArrow.png");
+}
+.sitefinityServices h3 {
+    margin: 0px;
+    color: #5173B9;
+    font-size: 16px;
+}
+.sitefinityServices p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.sitefinity-training-wrapper p{
+width:90%;
+min-height: 95px;
+}
+.sitefinityServices .btn.btn-color {
+    background: none repeat scroll 0% 0% #5173B9;
+    color: #FFF;
+}
+.sitefinityServices .btn.btn-color:hover {
+    background: none repeat scroll 0% 0% #9db0d8;
+    color: #FFF;
+}
+.team-wrapper, .partners-wrapper, .careers-wrapper, .tc-training-wrapper, .sf-training-wrapper {
+    max-width: 1400px;
+}
+/* SITEFINITY SERVICES PAGE END */
+/*-------------------*/
+
+
+/* WELCOME TO OHIO - HUDSON PAGE START */
+   .hudson-wrapper h3 {
+    color: #4695cc;
+    font-size: 36px;
+    margin-bottom:11px !important;
+}
+.hudson-wrapper hr {
+    margin: 75px 0;
+}
+.hudson-wrapper .elipse-image{width:80%; border:15px solid #efefef;}
+.hudson-wrapper .title {
+    color: #f33;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 121%;
+}
+.hudson-wrapper iframe{border 15px solid #333}
+.four-column li {
+    list-style-type: none;
+    width: 23%;
+    margin: 0px 20px 0px 0px;
+    float: left;
+}
+.four-column.align-center li {
+   text-align: center;
+}
+.four-column li.last{
+    margin: 0px;
+}
+/* WELCOME TO OHIO - HUDSON PAGE END */
+/*-------------------*/
+
+/* PORTFOLIO PAGES START 
+*/.microsoftPortfolio h1 {
+    margin: 0;
+    color: #333;
+    letter-spacing: -2px;
+    font-size: 46px;
+}
+.microsoftPortfolio h2 {
+    margin: 0 0 0 14px;
+    padding: 0;
+    color: #333;
+    letter-spacing: -2px;
+    font-size: 30px;
+}
+.microsoftPortfolioBanner {
+    margin: 10px 0;
+    width: 1200px;
+    height: 222px;
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioGER {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortGer.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolio-agworks {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPort-agworks.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioJaroth {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortJaroth.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioClockwork {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortClockwork.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioBoswell {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortBoswell.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioQuidsi {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortQuidsi.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioWebb {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortWebb.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioSBS {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortSBS.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioEventboard {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortEventboard.jpg);
+    background-repeat: no-repeat;
+}
+.mobilePortfolioBugs {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/mobilePortBugs.jpg);
+    background-repeat: no-repeat;
+}
+.mobilePortfoliomvcs {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/mobilePortmvcs.jpg);
+    background-repeat: no-repeat;
+}
+.mobilePortfolioSFHub {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/mobilePortSFHub.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioUMC {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortUMC.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioSiteboard {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 517px;
+    background-image: url(../images/msPortSiteboard.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioTelerik {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortTelerik.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioDSN {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortDSN.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioChevron {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortChevron.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioAlphaMetrix {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioAlphaMetrixTwo {
+    margin: 0 0 10px;
+    width: 1200px;
+    height: 612px;
+    background-image: url("../images/amPortShell.jpg");
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioEBF {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 90px;
+    background-image: url(../images/msPortEBF.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioJBT {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 90px;
+    background-image: url(../images/msPortJBT.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioSHFB {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 90px;
+    background-image: url(../images/msPortSHFB.jpg);
+    background-repeat: no-repeat;
+}
+.microsoftPortfolioAvailtech {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/msPortAvailtech.jpg);
+    background-repeat: no-repeat;
+} 
+.microsoftPortfolioTitleGER {
+    padding: 24px 0 0 233px;
+    font-size: 39px;
+}
+.microsoftPortfolioTitleJaroth {
+    padding: 12px 0 0 182px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitle {
+    padding: 17px 0 0 150px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleBoswell {
+    padding: 12px 0 0 15px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleQuidsi {
+    padding: 13px 0 0 73px;
+     font-size: 39px;
+}
+.mobilePortfolioTitleBugs {
+    padding: 27px 0 0 76px;
+     font-size: 39px;
+}
+.mobilePortfolioTitlemvcs {
+    padding: 30px 0 0 140px;
+     font-size: 39px;
+}
+.mobilePortfolioTitleSFHub {
+    padding: 26px 0 0 97px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleWebb {
+    padding: 13px 0 0 146px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleSBS {
+    padding: 16px 0 0 99px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleEventboard {
+    font-size: 39px;
+    padding: 30px 0 0 237px;
+}
+.microsoftPortfolioTitle-agworks {
+    font-size: 39px;
+    padding: 20px 0 0 167px;
+}
+.microsoftPortfolioTitleUMC {
+    padding: 15px 0 0 281px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleSiteboard {
+    padding: 10px 0 0 95px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleTelerik {
+    padding: 17px 0 0 208px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleDSN {
+    padding: 17px 0 0 77px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleChevron {
+    padding: 17px 0 0 77px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleamTwo {
+    padding: 26px 0 0 261px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleAlphaMetrix {
+    padding: 21px 0 0 248px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleEBF {
+    padding: 16px 0 0 96px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleJBT {
+    padding: 18px 0 0 180px;
+     font-size: 39px;
+}
+.microsoftPortfolioTitleSHFB {
+    padding: 15px 0 0 107px;
+     font-size: 39px;
+}
+.microsoftPortfolio ul {
+    margin: 0 0 0 23px;
+    padding: 0;
+    list-style-image: url("../images/ms_bullet2.png");
+    font-size: 16px;
+}
+.webb {
+    margin-left: 5px!important;
+}
+.siteboard {
+    margin-left: 5px!important;
+}
+.DSN {
+    width: 142px;
+}
+.chevron {
+    margin-left: -3px!important;
+    width: 194px;
+}
+.noImage {
+    margin: 20px 0 20px 16px!important;
+    list-style-image: url("../images/ms_bullet2.png");
+}
+.noImage li {
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+}
+.microsoftPortfolio li {
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+}
+.microsoftPortfolioList {
+    padding: 72px 0 0 765px;
+}
+.microsoftPortfolioList li {
+ margin: 5px 0 10px 20px;
+    padding-left: 0;  
+}
+.microsoftPortfolioList ul {
+  margin: 0 0 0 23px;
+    padding: 0;
+    list-style-image: url("../images/ms_bullet2.png");
+    font-size: 16px;   
+}
+.boxPortfolio {
+    margin: 40px 0;
+    padding: 10px;
+    width: 100%;
+    background-repeat: repeat;
+}
+.boxPortfolio p {
+    margin: 20px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 26px;
+}
+.portDivider {
+    margin: 30px 0;
+    width: 100%;
+    height: 4px;
+    background-image: url("../images/sfPortBorder.png");
+    background-repeat: repeat-x;
+}
+.testimonialLeft {
+    float: left;
+    margin: 17px 22px 0 0;
+    width: 97px;
+    height: 96px;
+    background-image: url("../images/quote.jpg");
+    background-repeat: no-repeat;
+}
+.testimonialRight {
+    float: left;
+    width: 89%;
+}
+.testimonialTextOne {
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+.testimonialTextTwo {
+    color: #666;
+    font-size: 14px;
+}
+.testimonialWrapper {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+    height: 170px;
+}
+.testimonialWrapperTwo {
+    width: 950px;
+    height: 226px;
+}
+.viewMorePortBtn {
+    margin: 138px 0 0 503px;
+}
+.viewMorePortBtnTwo {
+    margin: 78px 0 0 509px;
+}
+.viewMorePortBtnStorevoyant {
+    margin: 91px 0 0 464px;
+}
+.viewMorePortBtnClockwork {
+    margin: 199px 0 0 517px;
+}
+.mobilePortfolio ul {
+    margin: 10px 0 0 47px;
+    padding: 0;
+    list-style-image: url("../images/phone_bullet_19.jpg");
+    font-size: 16px;
+}
+.mobilePortfolio li {
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+}
+.mobilePortfolioAM {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/mobilePortAM.jpg);
+    background-repeat: no-repeat;
+}
+.mobilePortfolioSpinboard {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/mobilePortSpinboard.jpg);
+    background-repeat: no-repeat;
+}
+.mobilePortfolioTogo {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 571px;
+    background-image: url(../images/mobilePortTogo.jpg);
+    background-repeat: no-repeat;
+}
+.mobilePortfolioTitleAM {
+    padding: 17px 0 0 259px;
+}
+.mobilePortfolioTitleSpinboard {
+    padding: 13px 0 0 45px;
+}
+.mobilePortfolioTitleTogo {
+    padding: 19px 0 0 136px;
+}
+#mobilePortfolio {
+    width: 975px;
+    text-align: left;
+}
+.mobilePortfolio h1 {
+    color: #333;
+    letter-spacing: -2px;
+    font-size: 46px;
+}
+.mobilePortfolio h2 {
+    color: #333;
+    letter-spacing: -2px;
+    font-size: 30px;
+}
+.Togo {
+    margin-left: -40px!important;
+}
+.mobilePortfolioList {
+    padding: 72px 0 0 765px;
+}
+.sitefinityPortfolio h1 {
+    color: #333;
+    letter-spacing: -2px;
+    font-size: 46px;
+}
+.sitefinityPortfolioShell {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortShell.jpg);
+    background-repeat: no-repeat;
+}
+.sitefinityPortfolioRutgers {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortRutgers.jpg);
+    background-repeat: no-repeat;
+}
+.sitefinityPortfolioWomensCare {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortWomensCare.jpg);
+}
+.sitefinityPortfolioBrandes {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortBrandes.jpg);
+}
+.sitefinityPortfolioFPSC {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortFPSC.jpg);
+}
+.sitefinityPortfolioTapfin {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortTapfin.jpg);
+}
+.sitefinityPortfolioMammoth {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortMammoth.jpg);
+}
+.womens-care {
+    padding: 14px 0 0 295px;
+}
+.brandes {
+    padding: 14px 0 0 249px;
+}
+.mammoth {
+    padding: 14px 0 0 190px;
+}
+.fpsc {
+    padding: 21px 0 0 218px;
+}
+.tapfin {
+    padding: 19px 0 0 221px;
+}
+.sitefinityPortfolioConnectFood {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortConnectFood.jpg);
+    background-repeat: no-repeat;
+}
+.sitefinityPortfolioConEd {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortConEd.jpg);
+    background-repeat: no-repeat;
+}
+.sitefinityPortfolioJasco {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortJasco.jpg);
+    background-repeat: no-repeat;
+}
+.sitefinityPortfolioTheWay {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortTheWay.jpg);
+    background-repeat: no-repeat;
+}
+.sitefinityPortfolioDashboard {
+    margin: 0 0 10px 0;
+    width: 1200px;
+    height: 651px;
+    background-image: url(../images/sfPortDashboard.jpg);
+    background-repeat: no-repeat;
+}
+.rutgers {
+    padding: 18px 0 0 185px;
+    font-size: 37px!important;
+}
+.shell {
+    padding: 18px 0 0 109px;
+    font-size: 37px!important;
+}
+.dashboard {
+    padding: 18px 0 0 93px;
+    font-size: 37px!important;
+}
+.connectFood {
+    padding: 22px 0 0 209px;
+}
+.conEd {
+    padding: 17px 0 0 147px;
+}
+.jasco {
+    padding: 27px 0 0 173px;
+}
+.theWay {
+    padding: 18px 0 0 116px;
+}
+.sitefinityPortfolioTitle {
+    padding: 17px 0 0 101px;
+}
+.sitefinityPortfolio ul {
+    list-style-image: url("../images/sf_bullet.jpg");
+    font-size: 16px;
+     margin: 0 0 10px 25px;
+}
+.sitefinityPortfolio li {
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+}
+.sitefinityPortfolioList {
+    padding: 72px 0 0 765px;
+}
+.telerikPortfolio ul {
+    margin: -20px 0 0 22px;
+    padding: 0;
+    list-style-image: url("../images/telerik_bullet_16.jpg");
+    font-size: 16px;
+}
+.telerikPortfolio li {
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+}
+.boxPortfolio {
+    margin: 40px 0px;
+    padding: 10px;
+    width: 100%;
+    background-repeat: repeat;
+}
+.telerikGreen {
+    background-color: #5DE500;
+}
+.blue {
+    background-color: #4695CC;
+}
+.sitefinity-purple {
+    background-color: #5173B9;
+}
+.red {
+    background-color: #AE2035;
+}
+.red a {
+    color:#fff;
+    text-decoration: underline;
+}
+.red a:hover {
+    color:#f2f2f2;
+    text-decoration: underline;
+}
+/* PORTFOLIO PAGES END */
+/*-------------------*/
+
+
+
 /*-------------------*/
 /*-------------------*/
 /*-------------------*/
