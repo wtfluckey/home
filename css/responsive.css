@@ -11,6 +11,9 @@
 .training-guides-wrapper div {
     width: 13.6%;
 }
+.portHeaderTwoMobile, .port-image-mobile {
+    display: none;
+}
 }
 /* ============================================================================= */
 /* ============================================================================= */
@@ -58,6 +61,9 @@
 .design-wrapper{padding-left:15px; padding-right:15px;}
 .serviceNavigation {
     margin: 96px 0px 0px 45px;
+}
+.sitefinityBullet {
+    margin: 110px 0px 0px 30px;
 }
 .telerikBullet {
     margin: 8% 0 0 1%;
@@ -115,6 +121,25 @@
 }
 #pricing table {
     width: 100% ;
+}
+.sitefinityBullet {
+    margin: 84px 0px 0px 30px;
+}
+.microsoftPortfolioAvailtech, .microsoftPortfolioGER, .microsoftPortfolioJaroth, .microsoftPortfolioBoswell, .microsoftPortfolioQuidsi, .microsoftPortfolioWebb, .microsoftPortfolioUMC, .microsoftPortfolioSBS, .microsoftPortfolioEventboard, .microsoftPortfolioSiteboard, .microsoftPortfolioDSN, .microsoftPortfolioChevron, .microsoftPortfolioAlphaMetrixTwo, .microsoftPortfolioTelerik, .microsoftPortfolioSHFB, .microsoftPortfolioJBT, .microsoftPortfolioEBF, .microsoftPortfolioClockwork, .mobilePortfolioAM, .mobilePortfolioBugs, .mobilePortfoliomvcs, .mobilePortfolioSFHub, .mobilePortfolioSpinboard, .mobilePortfolioTogo, .sitefinityPortfolioWomensCare, .sitefinityPortfolioRutgers, .sitefinityPortfolioShell, .sitefinityPortfolioDashboard, .sitefinityPortfolioConnectFood, .sitefinityPortfolioConEd, .sitefinityPortfolioJasco, .sitefinityPortfolioTheWay, .sitefinityPortfolioBrandes, .sitefinityPortfolioFpsc, .sitefinityPortfolioTapfin, .sitefinityPortfolioMammoth, .microsoftPortfolio-agworks, .sitefinityPortfolioFPSC {
+    background-image: none;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0px;
+    width: 100%;
+}
+.microsoftPortfolioList, .mobilePortfolioTitleSpinboard, .mobilePortfolioTitleTogo, .mobilePortfolioList, .womens-care, .rutgers, .shell, .dashboard, .connectFood, .conEd, .jasco, .theWay, .sitefinityPortfolioList, .brandes, .tapfin, mammoth, .fpsc {
+    padding: 20px 0px;
+}
+.microsoftPortfolioTitleGER, .microsoftPortfolioTitleJaroth, .microsoftPortfolioTitleBoswell, .microsoftPortfolioTitleQuidsi, .microsoftPortfolioTitleWebb, .microsoftPortfolioTitleUMC, .microsoftPortfolioTitleSBS, .microsoftPortfolioTitleEventboard, .microsoftPortfolioTitleSiteboard, .microsoftPortfolioTitleTelerik, .microsoftPortfolioTitleDSN, .microsoftPortfolioTitleChevron, .microsoftPortfolioTitleamTwo, .microsoftPortfolioTitleEBF, .microsoftPortfolioTitleJBT, .microsoftPortfolioTitleSHFB, .microsoftPortfolioTitleJaroth, .mobilePortfolioTitleAM, .mobilePortfolioTitleBugs, .mobilePortfolioTitlemvcs, .mobilePortfolioTitleSFHub, .microsoftPortfolioTitle-agworks {
+    padding: 0px;
+}
+.portHeaderTwoMobile, .port-image-mobile {
+    display: block;
 }
 }
 /* ============================================================================= */
@@ -198,6 +223,14 @@
    width: 100%;
     margin: 0px;
 }
+.hudson-wrapper .column-40.text-align-right  {
+    width: 40%;
+    margin: 0px;
+}
+.hudson-wrapper .column-40.text-align-left  {
+   width: 40%;
+    margin: 0px;
+}
 .services-banner {
     height: 300px;
 }
@@ -213,7 +246,9 @@
 .serviceNavigation{
   display:none;
 }
-
+.four-column li {
+    width: 21.5%;
+}
     }
 /* ============================================================================= */
 /* ============================================================================= */
@@ -232,6 +267,33 @@
 
     .column-40.text-align-right  {
     text-align: center;
+}
+.four-column li {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.hudson-wrapper .elipse-image {
+    width: 51%;
+    margin: 30px 0;
+}
+.hudson-wrapper .column-40.text-align-right  {
+    width: 100%;
+    margin: 0px;
+}
+.hudson-wrapper .column-40.text-align-left  {
+   width: 100%;
+    margin: 0px;
+}
+.sitefinity-training-wrapper{text-align: center;}
+.sitefinity-training-wrapper img {
+    margin: 75px 0 0 0;
+}
+.sitefinity-add-ons img.icon {
+    margin: 50px 0 0 0;
+}
+.sitefinityServices h1 {
+    font-size: 30px;
 }
 .column-10,.column-100,.column-15,.column-20,.column-25,.column-30,.column-35,.column-40,.column-45,.column-5,.column-50,.column-55,.column-60,.column-65,.column-70,.column-75,.column-80,.column-85,.column-90,.column-95,.column1,.column2,.column3,.column4,.column5,.column6,.column75,.one-quarter,.three-quarter
 {width:100%;}
@@ -312,6 +374,7 @@
     font-size: 19px;
     min-width: 66px;
 }
+
 }
 /* ============================================================================= */
 /* ============================================================================= */
