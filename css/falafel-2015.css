@@ -54,7 +54,6 @@
 }
 
 /* TEXT ALIGNMENT */
-
 .text-align-center {
 	text-align: center;
 }
@@ -365,8 +364,6 @@ img {
 
 /* HOME PAGE SPECIFIC STYLES */
 
-/* SLIDER BANNERS SECTION */
-
 /* SHARED BANNER STYLES */
 .banner-wrapper {
     margin: 0px 0px 9px;
@@ -568,6 +565,7 @@ img {
 /* END TRAINING PAGE STYLES */
 /*-------------------*/
 
+
 /* CONTACT PAGE STYLES */
 .contactBold {
     color: #8CC043;
@@ -575,6 +573,7 @@ img {
 }
 /* END CONTACT PAGE STYLES */
 /*-------------------*/
+
 
 /* DESIGN PAGE STYLES */
 .design-wrapper-banner .bubble-1 img {
@@ -609,6 +608,7 @@ img {
 }
 /* END DESIGN PAGE STYLES */
 /*-------------------*/
+
 
 /* MICROSOFT SERVICES PAGE STYLES */
 .msServicesBanner {
@@ -664,6 +664,7 @@ img {
 }
 /* END MICROSOFT SERVICES PAGE STYLES */
 /*-------------------*/
+
 
 /* TELERIK SERVICES PAGE STYLES */
 .telerikServicesBanner {
@@ -908,6 +909,7 @@ td, th {
 /* END SMARTBEAR SERVICES PAGE STYLES */
 /*-------------------*/
 
+
 /* CONSULTING PAGE STYLES */
 .consulting-quote {
   min-height: 400px;
@@ -1068,6 +1070,7 @@ td, th {
 /* CONSULTING PAGE END*/
 /*-------------------*/
 
+
 /* COMPANY PAGE START */
 .company-header-banner {
   margin-top: 35px;
@@ -1130,6 +1133,7 @@ td, th {
 /* COMPANY PAGE END */
 /*-------------------*/
 
+
 /* TEAM PAGE START */
 .team-wrapper,
 .partners-wrapper,
@@ -1187,6 +1191,7 @@ td, th {
 /* PARTNER PAGE END */
 /*-------------------*/
 
+
 /* CAREERS PAGE */
 .careers-info li {
   color: #14171A;
@@ -1216,8 +1221,8 @@ td, th {
 /* CAREERS PAGE END */
 /*-------------------*/
 
-/* CONSULTING > SITECORE SERVICES PAGE START */
 
+/* CONSULTING > SITECORE SERVICES PAGE START */
 .sitecore-banner {
   min-height: 500px;
   height: auto;
@@ -1372,6 +1377,7 @@ td, th {
 /* TRAINING TILES and SITEFINITY/TESTCOMPLETE */
 /* SHARED STYLES END */
 /*-------------------*/
+
 
 /* TESTCOMPLETE TRAINING PAGE */
 .tc-onsite-training {
@@ -1563,8 +1569,9 @@ min-height: 95px;
 /* WELCOME TO OHIO - HUDSON PAGE END */
 /*-------------------*/
 
-/* PORTFOLIO PAGES START 
-*/.microsoftPortfolio h1 {
+
+/* PORTFOLIO PAGES START */
+.microsoftPortfolio h1 {
     margin: 0;
     color: #333;
     letter-spacing: -2px;
