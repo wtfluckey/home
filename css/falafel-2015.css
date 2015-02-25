@@ -336,6 +336,16 @@ img {
     background-image: url("../images/toggle.png");
 }
 
+.design-cta-button {
+  color: #FFF;
+  font-size: 27px;
+  font-weight: 100;
+  border-radius: 4px;
+  background-color: #1483C6;
+  border: 6px solid #BAE0F7;
+  padding: 20px 50px;
+}
+
 .btn-xl {
   border-radius: 5px;
   font-size: 29px;
@@ -1007,16 +1017,6 @@ td, th {
   line-height: 35px;
   color: #666;
   margin-bottom: 25px;
-}
-
-.design-cta-button {
-  color: #FFF;
-  font-size: 27px;
-  font-weight: 100;
-  border-radius: 4px;
-  background-color: #1483C6;
-  border: 6px solid #BAE0F7;
-  padding: 20px 50px;
 }
 
 .consulting-alm > .column-60 {
